@@ -1,0 +1,6 @@
+framework module Pods_testInly {
+  umbrella header "Pods-testInly-umbrella.h"
+
+  export *
+  module * { export * }
+}

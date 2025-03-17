@@ -1,0 +1,42 @@
+PODS:
+  - Alamofire (5.10.2)
+  - NewsDetail (0.1.0):
+    - Toast-Swift
+  - NewsList (0.1.0):
+    - Alamofire
+    - SDWebImage
+    - Toast-Swift
+  - SDWebImage (5.21.0):
+    - SDWebImage/Core (= 5.21.0)
+  - SDWebImage/Core (5.21.0)
+  - Toast-Swift (5.1.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - NewsDetail (from `./testInly/NewsDetail`)
+  - NewsList (from `./testInly/NewsList`)
+  - SDWebImage
+  - Toast-Swift
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - SDWebImage
+    - Toast-Swift
+
+EXTERNAL SOURCES:
+  NewsDetail:
+    :path: "./testInly/NewsDetail"
+  NewsList:
+    :path: "./testInly/NewsList"
+
+SPEC CHECKSUMS:
+  Alamofire: 7193b3b92c74a07f85569e1a6c4f4237291e7496
+  NewsDetail: 9f1b5a136d83464909d380e9ff0afb8dc87c0a97
+  NewsList: 43c3bd998730d848c61e1201a8210c958b88cd03
+  SDWebImage: f84b0feeb08d2d11e6a9b843cb06d75ebf5b8868
+  Toast-Swift: 7a03a532afe3a560d4044bc7c237e2864d295173
+
+PODFILE CHECKSUM: 6825bdef6aceac364d3571bdb11226812bb280c9
+
+COCOAPODS: 1.16.2

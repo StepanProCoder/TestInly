@@ -1,0 +1,10 @@
+platform :ios, '15.6'
+use_frameworks!
+
+target 'testInly' do
+  pod 'NewsList', :path => './testInly/NewsList'
+  pod 'NewsDetail', :path => './testInly/NewsDetail'
+  pod 'Alamofire'
+  pod 'SDWebImage'
+  pod 'Toast-Swift'
+end

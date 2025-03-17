@@ -1,0 +1,25 @@
+{
+  "name": "NewsDetail",
+  "version": "0.1.0",
+  "summary": "Module for detailed news view",
+  "description": "NewsDetail module handles displaying detailed news",
+  "homepage": "https://github.com/yourusername/NewsDetail",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Your Name": "your.email@example.com"
+  },
+  "source": {
+    "git": "https://github.com/yourusername/NewsDetail.git",
+    "tag": "0.1.0"
+  },
+  "source_files": "NewsDetail/Sources/**/*",
+  "dependencies": {
+    "Toast-Swift": []
+  },
+  "platforms": {
+    "ios": "15.6"
+  }
+}

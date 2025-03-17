@@ -1,0 +1,27 @@
+{
+  "name": "NewsList",
+  "version": "0.1.0",
+  "summary": "Module for displaying news list",
+  "description": "NewsList module handles the list of news articles",
+  "homepage": "https://github.com/yourusername/NewsList",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Your Name": "your.email@example.com"
+  },
+  "source": {
+    "git": "https://github.com/yourusername/NewsList.git",
+    "tag": "0.1.0"
+  },
+  "source_files": "NewsList/Sources/**/*",
+  "dependencies": {
+    "Alamofire": [],
+    "SDWebImage": [],
+    "Toast-Swift": []
+  },
+  "platforms": {
+    "ios": "15.6"
+  }
+}
