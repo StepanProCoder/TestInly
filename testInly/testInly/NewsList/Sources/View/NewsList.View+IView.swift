@@ -12,7 +12,7 @@ extension NewsList.View: NewsList.IView {
         tableView.numberOfRows(inSection: 0) == 0
     }
     
-    public func newsListViewShowNews(_ news: [News]) {
+    public func newsListViewShowNews() {
         DispatchQueue.main.async {
             self.tableView.reloadData()
         }

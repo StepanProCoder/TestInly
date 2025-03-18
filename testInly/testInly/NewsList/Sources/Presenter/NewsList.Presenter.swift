@@ -36,7 +36,7 @@ public class NewsListPresenter {
             case nil:
                 break
             }
-            self?.view?.newsListViewShowNews(news)
+            self?.view?.newsListViewShowNews()
         }
     }
 }

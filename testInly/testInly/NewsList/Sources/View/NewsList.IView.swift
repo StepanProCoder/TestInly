@@ -8,5 +8,5 @@
 public protocol INewsListView: AnyObject {
     var newsListViewIsListEmpty: Bool { get }
     
-    func newsListViewShowNews(_ news: [News])
+    func newsListViewShowNews()
 }
